@@ -7,5 +7,7 @@ I am Abdo el bikha a Computer Science Freshman student 👨🏻‍💻at *[Borou
 - 📫 How to reach me: Allocs16@gmail.com
 - ⚡ Fun fact: 
   - Lazy to lean jave because it is usless for ME.PY, CPP is my lover
+  - I like Torch, OpenCV, PY, and CPP.
+  - I would love to learn Go, haskell, and Assembly. 
 
-![ME github stats](https://github-readme-stats.vercel.app/api?username=goodwiins&count_private=true) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iliassjabali)](https://github.com/goodwiins/github-readme-stats)
+![ME github stats](https://github-readme-stats.vercel.app/api?username=goodwiins&count_private=true) 
