@@ -10,4 +10,4 @@ I am Abdo el bikha a Computer Science Freshman student 👨🏻‍💻at *[Borou
   - I like Torch, OpenCV, PY, and CPP.
   - I would love to learn Go, haskell, and Assembly. 
 
-![ME github stats](https://github-readme-stats.vercel.app/api?username=goodwiins&count_private=true) 
+
