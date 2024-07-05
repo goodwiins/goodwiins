@@ -1,6 +1,6 @@
 # Hello Friends 👋
 
-I am Abdo el bikha a Computer Science Freshman student 👨🏻‍💻at *[Borough of Manhattan Community College ]*
+
 
 - 🌱 I’m currently still learning and having fun!
 - 👯 I’m looking to collaborate on NLP and CV project!
