@@ -3,7 +3,7 @@
 **Software engineer building AI applications, backend systems, and developer tools.**  
 New York, NY · Open to entry-level software engineering and applied AI roles
 
-[Portfolio](https://www.aelbikha.com) · [LinkedIn](https://www.linkedin.com/in/aelbikha/) · [Goodwiinz organization](https://github.com/Goodwiinz)
+[Portfolio](https://aelbikha.me) · [LinkedIn](https://www.linkedin.com/in/aelbikha/) · [Goodwiinz organization](https://github.com/Goodwiinz)
 
 I build applications that connect language models to useful workflows: searching research papers, automating browser tasks, and generating educational content. My work spans Python backends, TypeScript interfaces, and Go services.
 
@@ -11,7 +11,7 @@ Through AI/ML and full-stack internships, I've worked on tutoring agents, retrie
 
 ## Featured projects
 
-### [NOUS](https://github.com/Goodwiinz/rag) — Research platform and AI agent
+### [NOUS](https://github.com/Goodwiinz/NOUS-Research-Assistant) — Research platform and AI agent
 A workspace for searching documents and papers, exploring a knowledge graph, and generating answers with source citations.
 
 - Web and terminal clients share a FastAPI backend.
@@ -19,7 +19,7 @@ A workspace for searching documents and papers, exploring a knowledge graph, and
 - Agent evaluations check tool actions, database state, answer grounding, and cancellation behavior.
 
 **Python · FastAPI · LangGraph · Next.js · PostgreSQL · Neo4j**  
-[Source](https://github.com/Goodwiinz/rag) · [Terminal client](https://github.com/Goodwiinz/nous-cli) · [Project showcase](https://goodwiins.github.io/nous/) · [Evaluations](https://github.com/Goodwiinz/rag/tree/develop/evals)
+[Source](https://github.com/Goodwiinz/NOUS-Research-Assistant) · [Terminal client](https://github.com/Goodwiinz/nous-cli) · [Project showcase](https://goodwiins.github.io/nous/) · [Evaluations](https://github.com/Goodwiinz/NOUS-Research-Assistant/tree/develop/evals)
 
 ### [MERIDIAN](https://github.com/goodwiins/computer-use-automation-system/tree/dev) — Browser workflow automation
 An LLM discovers workflows in a synthetic banking application and records typed, versioned instructions. Approved workflows replay without further model calls.
@@ -66,4 +66,4 @@ In development; the complete build workflow is still being developed.
 
 I'm looking for **Software Engineer I, backend, and applied AI engineering opportunities** where I can build useful products and grow alongside experienced engineers.
 
-Reach me on [LinkedIn](https://www.linkedin.com/in/aelbikha/) or explore my work at [aelbikha.com](https://www.aelbikha.com).
+Reach me on [LinkedIn](https://www.linkedin.com/in/aelbikha/) or explore my work at [aelbikha.me](https://aelbikha.me).
