@@ -11,26 +11,48 @@ on:
       - .github/workflows/update-readme.yml
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update:
+  # Builds and runs octoprofile with a read-only token and no stored git credentials.
+  generate:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - uses: actions/checkout@v5
         with:
           repository: goodwiins/octoprofile
           path: .octoprofile
+          persist-credentials: false
 
       - name: Build octoprofile
         run: swift build -c release --package-path .octoprofile
 
       - name: Generate README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: .octoprofile/.build/release/octoprofile template.md -o README.md
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: readme
+          path: README.md
+
+  # Commits the generated README; never executes octoprofile.
+  commit:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: readme
 
       - name: Commit if changed
         run: |
