@@ -47,8 +47,8 @@ In development; the complete build workflow is still being developed.
 
 ## Recently updated
 
-- [job-hunt-skill](https://github.com/goodwiins/job-hunt-skill) — Claude Code skill: find fresh early-career jobs from public sources, verify against live ATS APIs, and apply through Jobright with review-before-submit · *Python*
 - [prompt-injection-defense](https://github.com/goodwiins/prompt-injection-defense) · *Jupyter Notebook*
+- [job-hunt-skill](https://github.com/goodwiins/job-hunt-skill) — Claude Code skill: find fresh early-career jobs from public sources, verify against live ATS APIs, and apply through Jobright with review-before-submit · *Python*
 - [carla-macos-setup](https://github.com/goodwiins/carla-macos-setup) — CARLA 0.9.15 on Apple Silicon with Sikarugir, D3DMetal, Colima, and a Docker Python client · *Python*
 - [computer-use-automation-system](https://github.com/goodwiins/computer-use-automation-system) · *TypeScript*
 - [nous](https://github.com/goodwiins/nous) — NOUS — Multimodal Intelligence Platform. νοῦς, the mind that reads, reasons, and writes. · *HTML*
